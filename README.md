@@ -14,13 +14,12 @@ People these days don't read and mainly spend their time on short-form social me
 
 
 
-## Frameworks Used 
-Attempted to take advantage of new iOS 26 APIs.
-- Swift
-- SwiftUI
-- SwiftData
-- Foundation Models API
-- Combine
+## Language / APIs / Frameworks Used 
+- Swift (Language)
+- SwiftUI (UI framework)
+- SwiftData (stores Book and Page)
+- Foundation Models API (new for iOS 26, was fun to try out)
+- Combine (needed for Observable Object)
 - Observable Object (seperating generation logic from views to a degree)
 
 ## Features
@@ -32,6 +31,7 @@ Attempted to take advantage of new iOS 26 APIs.
 ### Data
 - Imports from .txt files
 - Books are stored as SwiftData objects
+- Data Management Sheet accessible from main menu
 ### Thoughts
 - Takes advantage of the new Foundation Models API. (iOS 26+, Apple Inteligence required)
 - Each comment takes in a page as context and replies in a concise manner.

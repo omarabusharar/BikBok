@@ -21,6 +21,7 @@ Attempted to take advantage of new iOS 26 APIs.
 - SwiftData
 - Foundation Models API
 - Combine
+- Observable Object (seperating generation logic from views to a degree)
 
 ## Features
 ### Reading
@@ -35,3 +36,7 @@ Attempted to take advantage of new iOS 26 APIs.
 - Takes advantage of the new Foundation Models API. (iOS 26+, Apple Inteligence required)
 - Each comment takes in a page as context and replies in a concise manner.
 - User can reply to these comments, and in turn the GenAI can reply to them.
+
+## Personal Notes
+- Finished this project in two days with a couple of breaks in between
+- Nice change of pace, explored APIs

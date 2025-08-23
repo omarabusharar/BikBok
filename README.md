@@ -34,4 +34,4 @@ Attempted to take advantage of new iOS 26 APIs.
 ### Thoughts
 - Takes advantage of the new Foundation Models API. (iOS 26+, Apple Inteligence required)
 - Each comment takes in a page as context and replies in a concise manner.
-- User can reply to these comments, and in turn the robot can reply to them.
+- User can reply to these comments, and in turn the GenAI can reply to them.

@@ -1,5 +1,5 @@
 # BikBok
-What if TikTok was for Books and had people instead of AI? (iOS 26, SwiftUI, Foundation Models)
+What if TikTok was for Books and had AI instead of people? (iOS 26, SwiftUI, Foundation Models)
 
 ## Thought Process
 People these days don't read and mainly spend their time on short-form social media, such as Instagram, TikTok, or YouTube Shorts. This has lead to less people reading. If we combine the mechanisms of TikTok, with the power of books, can we solve this problem?

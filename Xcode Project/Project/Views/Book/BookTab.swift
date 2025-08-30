@@ -22,7 +22,7 @@ struct BookTab: View {
             isCoverShown ? 1 : 0.9
         }
     }
-    
+    @State private var disabledScroll = false
     var book: Book
     
     var pages: [Page] {
@@ -41,15 +41,20 @@ struct BookTab: View {
                             ForEach(pages, id: \.id) { page in
                                 BookPage(page: page, book: book)
                                     .id(page.number)
-                                    
+                                if page.number % 10 == 0 {
+                                    AdPage(disableScroll: $disabledScroll)
+                                        .id(page.number * -1)
+                                }
                                     
                             }
                         }
+                        
                         .ignoresSafeArea()
                         .scrollTargetLayout()
                         .contentMargins(.bottom, 20)
                         .scrollContentBackground(.hidden)
                     }
+                .scrollDisabled(disabledScroll)
                 }
                 .background {
                     Rectangle()
@@ -108,6 +113,11 @@ struct BookTab: View {
                     }
                 })
                 .scrollPosition(id: $selection, anchor: .bottom)
+                .onChange(of: selection!, perform: { newValue in
+                    if newValue < 0 {
+                        disabledScroll = true
+                    }
+                })
                 .scrollEdgeEffectStyle(.soft, for: .vertical)
                 .scrollTargetBehavior(.paging)
                 .scrollIndicators(.hidden, axes: .vertical)

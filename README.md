@@ -40,6 +40,3 @@ People these days don't read and mainly spend their time on short-form social me
 - Takes advantage of the new Foundation Models API. (iOS 26+, Apple Inteligence required)
 - Interrupts the reader every 10 pages.
 - AI-Generated Advertisements with a variety of text-based formats.
-## Personal Notes
-- Finished this project in two days with a couple of breaks in between
-- Nice change of pace, explored APIs

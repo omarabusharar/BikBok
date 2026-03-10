@@ -1,3 +1,5 @@
+<img width="3000" height="1000" alt="bikbok banner" src="https://github.com/user-attachments/assets/dcd11e50-9fbd-4b8b-bbad-8173807a194b"/>
+
 # BikBok
 What if TikTok was for Books and had AI instead of people? (iOS 26, SwiftUI, Foundation Models)
 

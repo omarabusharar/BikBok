@@ -1,0 +1,116 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.92092,0.30487,0.64913,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "Group copy 2.png",
+          "name" : "Group copy 2",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              702.28125
+            ]
+          }
+        },
+        {
+          "image-name" : "Group copy.png",
+          "name" : "Group copy",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -699.015625
+            ]
+          }
+        },
+        {
+          "blend-mode" : "multiply",
+          "glass" : true,
+          "image-name" : "Rounded Rectangle copy 2.png",
+          "name" : "Rounded Rectangle copy 2",
+          "opacity" : 0.79,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -92.65625
+            ]
+          }
+        },
+        {
+          "blend-mode" : "multiply",
+          "glass" : true,
+          "image-name" : "Rounded Rectangle copy.png",
+          "name" : "Rounded Rectangle copy",
+          "opacity" : 0.79,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -168.078125
+            ]
+          }
+        },
+        {
+          "blend-mode" : "multiply",
+          "glass" : true,
+          "image-name" : "Rounded Rectangle.png",
+          "name" : "Rounded Rectangle",
+          "opacity" : 0.79,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -16.5
+            ]
+          }
+        },
+        {
+          "image-name" : "Rectangle copy 2.png",
+          "name" : "Rectangle copy 2"
+        },
+        {
+          "image-name" : "Rectangle.png",
+          "name" : "Rectangle"
+        },
+        {
+          "image-name" : "Image Layer copy 2.png",
+          "name" : "Image Layer copy 2",
+          "opacity" : 0.31
+        },
+        {
+          "image-name" : "Image Layer copy.png",
+          "name" : "Image Layer copy",
+          "opacity" : 0.31
+        },
+        {
+          "image-name" : "Image Layer.png",
+          "name" : "Image Layer",
+          "opacity" : 0.31
+        },
+        {
+          "image-name" : "Image Layer copy 2 2.png",
+          "name" : "Image Layer copy 2 2"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
